@@ -5004,3 +5004,2907 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.ui 2 2 2022-12-12 00:21:24.975
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-12 00:35:21.869
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-12 00:37:12.832
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-12 00:42:53.779
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-12 00:47:14.486
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-12 00:54:39.633
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-12 01:11:44.476
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-12 01:31:36.222
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-12 01:35:57.070
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:03.379
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 10),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-12-12 01:36:03.382
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-12-12 01:36:03.383
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:03.495
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 10),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:03.497
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:03.499
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:04.776
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 10),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:04.778
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:04.779
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:09.741
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 10),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:09.742
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:09.744
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:11.461
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 10),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:11.463
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:11.464
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:12.393
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 10),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:12.395
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:12.396
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:17.392
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 30),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-12-12 01:36:17.393
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-12-12 01:36:17.395
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:17.455
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 30),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:17.456
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:17.458
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:19.946
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 30),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:19.947
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:19.948
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:21.787
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 30),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:21.789
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:21.790
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:21.819
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 30),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.getClipboardData(ClipboardOperationAction.java:479)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.doCutCopyWithImportsOperation(ClipboardOperationAction.java:406)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.internalDoOperation(ClipboardOperationAction.java:365)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.run(ClipboardOperationAction.java:286)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1542)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4745)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:21.821
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.getClipboardData(ClipboardOperationAction.java:479)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.doCutCopyWithImportsOperation(ClipboardOperationAction.java:406)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.internalDoOperation(ClipboardOperationAction.java:365)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.run(ClipboardOperationAction.java:286)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1542)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4745)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:21.830
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.getClipboardData(ClipboardOperationAction.java:479)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.doCutCopyWithImportsOperation(ClipboardOperationAction.java:406)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.internalDoOperation(ClipboardOperationAction.java:365)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.jdt.internal.ui.javaeditor.ClipboardOperationAction.run(ClipboardOperationAction.java:286)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1542)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4745)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-12-12 01:36:23.880
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDateEmpty() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(int(from 0 to 30),anyInt(),anyInt()).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(anyInt(),anyInt(),anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testgetByDate() {
+		Appoinments affiliategetByDateMock = new Appoinments();
+		when(serviceAppoinmentsMock.getByDate(any())).thenReturn(List.of(affiliategetByDateMock));
+		var response = appoinmentsController.getByDate(any());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-12-12 01:36:23.882
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-12-12 01:36:23.883
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2517)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2488)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2059)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
