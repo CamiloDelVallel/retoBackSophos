@@ -1,0 +1,110 @@
+/**
+ * 
+ */
+package com.camilodelvalle.reto.entity;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+/**
+ * @author Camilo Del Valle
+ * @version 1.0 1/12/2022 Controlador que manipula el flujo de los servicios
+ *          REST del microservicio de Tests
+ *      
+ */
+
+@Data
+@Entity
+@Table (name = "Appoinments")
+public class Appoinments {
+	
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
+	private Long id;
+	
+	@JsonFormat(pattern = "dd/MM/yyyy’")
+	@DateTimeFormat(pattern = "dd/MM/yyyy’")
+	@Column(name = "date_appoinment")
+	private LocalDate date;
+	
+	@JsonFormat(pattern = "HH:mm")
+	@DateTimeFormat(pattern = "HH:mm")
+	@Column(name = "hour_appoinments")
+	private LocalTime hourAppoinments;
+	
+	@Column(name = "id_test")
+	private int idTest;
+	
+	@Column(name = "id_affiliate")
+	private Integer idAffiliate;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public LocalDate getDate() {
+		return date;
+	}
+
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
+
+	public LocalTime getHourAppoinments() {
+		return hourAppoinments;
+	}
+
+	public void setHourAppoinments(LocalTime hourAppoinments) {
+		this.hourAppoinments = hourAppoinments;
+	}
+
+	public int getIdTest() {
+		return idTest;
+	}
+
+	public void setIdTest(int idTest) {
+		this.idTest = idTest;
+	}
+
+	public int getIdAffiliate() {
+		return idAffiliate;
+	}
+
+	public void setIdAffiliate(Integer idAffiliate) {
+		this.idAffiliate = idAffiliate;
+	}
+
+	public Appoinments(Long id, LocalDate date, LocalTime hourAppoinments, int idTest, Integer idAffiliate) {
+		super();
+		this.id = id;
+		this.date = date;
+		this.hourAppoinments = hourAppoinments;
+		this.idTest = idTest;
+		this.idAffiliate = idAffiliate;
+	}
+
+	public Appoinments() {
+		super();
+	}
+
+	
+}

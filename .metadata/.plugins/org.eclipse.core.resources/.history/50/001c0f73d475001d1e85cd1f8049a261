@@ -1,0 +1,100 @@
+/**
+ * 
+ */
+package com.camilodelvalle.reto.entity;
+
+import java.util.Date;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+/**
+ * @author Camilo Del Valle
+ * @version 1.0 1/12/2022 Controlador que manipula el flujo de los servicios
+ *          REST del microservicio de Tests
+ *      
+ */
+
+@Data
+@Entity
+@Table (name = "Appoinments")
+public class Appoinments {
+	
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
+	private Long id;
+	
+	@Column(name = "date_appoinments")
+	private Date dateAppoinments;
+	
+	@Column(name = "hour_appoinments")
+	private Date hourAppoinments;
+	
+	@Column(name = "id_test")
+	private int idTest;
+	
+	@Column(name = "id_affiliate")
+	private int idAffiliate;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Date getDate() {
+		return dateAppoinments;
+	}
+
+	public void setDate(Date dateAppoinments) {
+		this.dateAppoinments = dateAppoinments;
+	}
+
+	public Date getHour() {
+		return hourAppoinments;
+	}
+
+	public void setHour(Date hourAppoinments) {
+		this.hourAppoinments = hourAppoinments;
+	}
+
+	public int getId_test() {
+		return idTest;
+	}
+
+	public void setId_test(int id_test) {
+		this.idTest = id_test;
+	}
+
+	public int getId_affiliate() {
+		return idAffiliate;
+	}
+
+	public void setId_affiliate(int id_affiliate) {
+		this.idAffiliate = id_affiliate;
+	}
+
+	public Appoinments(Long id, Date date, Date hour, int id_test, int id_affiliate) {
+		super();
+		this.id = id;
+		this.dateAppoinments = date;
+		this.hourAppoinments = hourAppoinments;
+		this.idTest = id_test;
+		this.idAffiliate = id_affiliate;
+	}
+
+	public Appoinments() {
+		super();
+	}
+
+	
+}

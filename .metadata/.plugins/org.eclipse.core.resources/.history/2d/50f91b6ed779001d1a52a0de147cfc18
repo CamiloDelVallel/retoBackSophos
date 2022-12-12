@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.camilodelvalle.reto.repository;
+
+
+
+import java.util.Optional;
+/**
+ * @author Camilo Del Valle
+ * @version 1.0 1/12/2022 
+ * Interface que contiene el CRUD con Spring JPA para la tabla de Affiliates
+ */
+public interface AffiliatesRepository extends CrudRepository<Affiliates, Integer> {
+
+
+}

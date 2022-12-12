@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package com.camilodelvalle.reto.service;
+
+import java.util.List;
+
+import com.camilodelvalle.reto.entity.Affiliates;
+
+
+
+
+/**
+ * @author Camilo Del Valle
+ * @version 1.0 1/12/2022 
+ * Interface que contiene los métodos de logica del negocio para los appoinments.
+ */
+public interface AffiliatesService {
+	
+	/**
+	 * @author Camilo Del Valle
+	 * @version 1.0 1/12/2022 
+	 * Metodo que permite consultar un listado de appoinments
+	 * @return listado de Tests
+	 */
+	List<Affiliates> getList();
+	
+	List<Affiliates> getById();
+
+	Affiliates post(Affiliates affiliates);
+
+	Affiliates put(Affiliates affiliates);
+
+	void deleteId(Long id);
+
+	Object getById(int check);
+
+	
+
+	
+}
+

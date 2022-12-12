@@ -1,0 +1,112 @@
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Affiliates;
+import com.camilodelvalle.reto.entity.Tests;
+import com.camilodelvalle.reto.service.TestsService;
+
+@ExtendWith(MockitoExtension.class)
+class TestsControllerTest {
+
+	@InjectMocks
+	private TestsController testsController = new TestsController();
+	
+	@Mock
+	private TestsService serviceTestsMock;
+	
+	@Test
+	void testGetTestsEmpty() {
+		when(serviceTestsMock.getList()).thenReturn(Collections.emptyList());
+		var response = testsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	@Test
+	void testGetListTests() {
+		List<Tests> toCheckList = new ArrayList<Tests>();
+		toCheckList.add(new Tests());
+		when(serviceTestsMock.getList()).thenReturn(toCheckList);
+		var response = testsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdTestsEmpty() {
+		when(serviceTestsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = testsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListTests() {
+		Tests testsGetByIdMock = new Tests();
+		when(serviceTestsMock.getById(anyInt())).thenReturn(Optional.of(testsGetByIdMock));
+		var response = testsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Tests testsPostMock = new Tests();
+		when(serviceTestsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = testsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Affiliates testsPutEmptyMock = new Affiliates();
+		when(serviceTestsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = testsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Affiliates affiliatePutMock = new Affiliates();
+		when(serviceAffiliatesMock.put(affiliatePutMock)).thenReturn(Optional.of(affiliatePutMock));
+		var response = affiliatesController.put(affiliatePutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAffiliatesMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = affiliatesController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Affiliates affiliateDeletetMock = new Affiliates();
+		when(serviceAffiliatesMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = affiliatesController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+

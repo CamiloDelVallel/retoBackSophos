@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.camilodelvalle.reto.repository;
+
+import java.time.LocalDate;
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
+
+
+import com.camilodelvalle.reto.entity.Appoinments;
+
+/**
+ * @author Camilo Del Valle
+ * @version 1.0 1/12/2022 
+ * Interface que contiene el CRUD con Spring JPA para la tabla de Appoinments
+ */
+public interface AppoinmentsRepository extends CrudRepository<Appoinments, Long> {
+		
+	@Query(value = "SELECT a FROM APPOINMENTS a WHERE a.DATE_APPOINMENTS = :DATE_APPOINMENTS order by a.ID",   nativeQuery = true)
+	List <Appoinments> getByDate (@Param("DATE_APPOINMENTS") LocalDate DATE_APPOINMENTS);
+
+	List<Appoinments> findByDate(LocalDate date);
+	
+	
+}

@@ -1,0 +1,100 @@
+/**
+ * 
+ */
+package com.camilodelvalle.reto.service.impl;
+
+import java.time.LocalDate;
+import java.util.Collection;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.camilodelvalle.reto.entity.Affiliates;
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.repository.AppoinmentsRepository;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+
+/**
+ * @author Camilo Del Valle
+ * @version 1.0 1/12/2022 
+ * Clase que implementa la lógica de negocio de la interfaz de Appoinments
+ */
+
+@Service
+public class AppoinmentsServiceImpl implements AppoinmentsService {
+	/**
+	 * Bean repository de spring inyectado para ejecutar el CRUD.
+	 */
+
+	
+	@Autowired
+	private AppoinmentsRepository appoinmentsRepository;
+	
+
+	@Override
+	public List<Appoinments> getList() {
+		List<Appoinments> appoinmentsDataSource = StreamSupport.stream(this.appoinmentsRepository.findAll().spliterator(), false)
+				.collect(Collectors.toList()); //el stream lo que hace es que los consulta todos y despues los lleva a una lista con collect
+		return appoinmentsDataSource;
+	}
+	
+	@Override
+	public Optional<Appoinments> getById(Long id) {
+		Optional<Appoinments> appoinmentsDataSource = this.appoinmentsRepository.findById(id);
+		return appoinmentsDataSource;
+	}
+
+	@Override
+	public Appoinments post(Appoinments appoinments) {
+		return this.appoinmentsRepository.save(appoinments);
+	}
+
+	@Override
+	public Optional<Appoinments> put(Appoinments appoinments) {
+		Optional<Appoinments> putAppoinments = appoinmentsRepository.findById(appoinments.getId());
+		if(putAppoinments.isPresent()) {
+			Appoinments appoinmentsActualizado = putAppoinments.get();
+			appoinmentsActualizado.setDate(appoinments.getDate());
+			appoinmentsActualizado.setHourAppoinments(appoinments.getHourAppoinments());
+			appoinmentsActualizado.setIdTest(appoinments.getIdTest());
+			appoinmentsActualizado.setIdAffiliate(appoinments.getIdAffiliate());
+			
+			appoinmentsRepository.save(appoinmentsActualizado);
+			return Optional.ofNullable(appoinmentsActualizado);
+			
+		} else {
+			return Optional.empty();
+		}
+	}
+
+	@Override
+	public Optional<Appoinments> delete(Long id) {
+		Optional<Appoinments> appoinmentsDataSource = this.appoinmentsRepository.findById(id);
+		if(appoinmentsDataSource.isPresent()) {
+			appoinmentsRepository.deleteById(id);
+			return appoinmentsDataSource;
+		} else {
+			return Optional.empty();
+		}
+	}
+
+	@Override
+	public Collection<Appoinments> getByDate(LocalDate date) {
+		Appoinments appoinment = new Appoinments();
+		appoinment.setDate(date);
+		return this.appoinmentsRepository.findByDate(date);
+	}
+	
+	@Override
+	public Collection<Appoinments> getByAffiliates(Affiliates idAffiliate) {
+		return this.appoinmentsRepository.findByIdAffilite(idAffiliate);
+	}
+
+}
+
+// @Query("SELECT A FROM Appointment A WHERE A.dateAppointment = ?1 ORDER BY A.affiliate.id")
