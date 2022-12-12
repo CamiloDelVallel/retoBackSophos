@@ -1,0 +1,116 @@
+package com.camilodelvalle.reto.controllers;
+
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.when;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+
+import com.camilodelvalle.reto.entity.Appoinments;
+import com.camilodelvalle.reto.entity.Tests;
+import com.camilodelvalle.reto.service.AffiliatesService;
+import com.camilodelvalle.reto.service.AppoinmentsService;
+
+@ExtendWith(MockitoExtension.class)
+class AppoinmentsControllerTest {
+
+	@InjectMocks
+	private AppoinmentsController appoinmentsController = new AppoinmentsController();
+	
+	@Mock
+	private AppoinmentsService serviceAppoinmentsMock;
+	
+	@Test
+	void testGetAppoinments() {
+		when(serviceAppoinmentsMock.getList()).thenReturn(Collections.emptyList());
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetListAppoinments() {
+		List<Appoinments> toCheckList = new ArrayList<Appoinments>();
+		toCheckList.add(new Appoinments());
+		when(serviceAppoinmentsMock.getList()).thenReturn(toCheckList);
+		var response = appoinmentsController.getList();
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdAppoinmentsEmpty() {
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testGetByIdListAppoinments() {
+		Appoinments appoinmentsGetByIdMock = new Appoinments();
+		when(serviceAppoinmentsMock.getById(anyInt())).thenReturn(Optional.of(appoinmentsGetByIdMock));
+		var response = appoinmentsController.getById(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	
+	/*
+	@Test
+	void testPostEmpty() {
+		Affiliates affiliatePostEmptyMock = new Affiliates();
+		when(serviceAffiliatesMock.post(affiliatePostEmptyMock)).thenReturn(affiliatePostEmptyMock);
+        var response = affiliatesController.post(affiliatePostEmptyMock);
+        Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	*/
+	
+	@Test
+	void testPost() {
+		Appoinments testsPostMock = new Appoinments();
+		when(serviceAppoinmentsMock.post(testsPostMock)).thenReturn(testsPostMock);
+		var response = appoinmentsController.post(testsPostMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	//Test para comprobar que no encuentra un elemento para hacer PUT
+	@Test
+	void testPutEmpty() {
+		Appoinments testsPutEmptyMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testsPutEmptyMock)).thenReturn(Optional.empty());
+		var response = appoinmentsController.put(testsPutEmptyMock);
+		Assertions.assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+	}
+	
+	@Test
+	void testPut() {
+		Appoinments testPutMock = new Appoinments();
+		when(serviceAppoinmentsMock.put(testPutMock)).thenReturn(Optional.of(testPutMock));
+		var response = appoinmentsController.put(testPutMock);
+		Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+	}
+	
+	@Test
+	void testDeleteEmpty() {
+		when((serviceAppoinmentsMock).delete(anyInt())).thenReturn(Optional.empty());
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
+	}
+	
+	@Test
+	void testDelete() {
+		Appoinments affiliateDeletetMock = new Appoinments();
+		when(serviceAppoinmentsMock.delete(anyInt())).thenReturn(Optional.of(affiliateDeletetMock));
+		var response = appoinmentsController.delete(anyInt());
+		Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+}
+
+
+}
